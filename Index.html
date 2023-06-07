@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="./estilos.css">
     <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
     <title>Hackaton</title>
@@ -17,33 +16,20 @@
         <span class="js-count-particles">
     </div>
     <header class="header">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-            <a class="navbar-brand" href="#Home">
-                <img src="./img/taxis.png" alt="Logo" class="TaxisLibres">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Hackaton">Hackaton</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Premios">Premios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Patrocinadores">Patrocinadores</a>
-                    </li>
-                </ul>
-                <div class="navbar-nav">
-                    <a class="nav-link custom-color" href="#footer-container">Inscripción</a>
-                </div>
-            </div>
+        <nav class="navbar">
+            <ul>
+                <li class="Home"> <a href="#Home">
+                <img src="./img/taxis.png" alt="Logo" class="TaxisLibres"></a></li>
+                <li class="Hackaton"><a href="#Hackaton"> <span class=""></span>Hackaton</a></li>
+                <li class="Premios"> <a href="#Premios"> <span class="underpremios"></span>Premios</a></li>
+                <li class="patrocinadores"> <a href="#Patrocinadores"> <span
+                 class="underpatrocinadores"></span>Patrocinadores</a></li>
+                <li class="Inscripción"> <a href="#footer-container"> <span class="underInscripción"></span>Inscripción</a>
+                </li>
+
+            </ul>
         </nav>
     </header>
-    
 
     <section id="Home" class="Container_Home">
         <div class="Contenido_Home">
@@ -130,6 +116,7 @@
             <div class="contenedor_Premios">
 
                 <div class="container_cards_Premios">
+
                     <div class="card1 card2">
                         <div class="icon1 icon">
                             <img src="./img/trofeo.jpeg" alt="">
@@ -172,7 +159,7 @@
                     </div>
                 </div>
             </div>
-            </section>
+            </div>
             <section class="NuestrosTestimonios">
                 <div class="titulotestimonios">
                     <h1><b>Nuestros testimonios</h1></b>
@@ -215,7 +202,8 @@
                 </div>
             </section><br><br>
 
-            <footer id="footer-container">
+            <footer>
+                <div id="footer-container"></div>
                 <div class="footer-container">
                     <div class="footer-left">
                         <h1>Servicios</h1>
@@ -261,10 +249,8 @@
                 </div>
             </footer>
 
-            <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+            </script>
              <script src="./Javascript/javascript.js"></script>
             <script src="./Javascript/particulas.js"></script>
 
